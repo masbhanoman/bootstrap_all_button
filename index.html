@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Bootstrap 3 : Assignment 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <hr>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped">
+                        <tr>
+                            <th colspan="3" class="text-center">Bootstrap 3 :Table-Form-Button</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">
+                                <div class="h3">Code</div>
+                                <div class="p">Its look like code:
+                                    <code>printf("this means its a code");</code></div>
+                                <hr>
+                                <div class="h3">KBD</div>
+                                <div class="p">
+                                    Press <kbd>CTRL+C</kbd> to copy something.
+                                </div>
+                                <hr>
+                                <div class="h3">PRE</div>
+                                <div class="p"><pre>This is the pre Tag.</pre></div>
+                                <hr>
+                                <div class="h3">VAR</div>
+                                <var>(a+b)^2=a^2+2ab+b^2</var>
+                                <hr>
+                                <div class="h3">SAMP</div>
+                                <samp>This is the samp tag.</samp>
+                            </td>
+                            <td>
+                                 <form class='form-group-sm'>
+						<div class='form-group has-error'>
+						its form-group-sm <br> 
+							<label>Full Name</label>
+							<input type="text" placeholder="frm-ctrl so i'll b inline block n has-error for red/warning input box"  class='form-control' >
+							
+						</div>
+                         <div class=' has-error'>
+							<label for='text'>Nick Name</label>
+							<input type="text" placeholder="no frm-ctrl so i'll b short">
+						</div>
+                    <div class='form-group warning '>
+                        <label for='message'>Message</label>
+                        <textarea rows='3'  placeholder="it contains rows 3 <br>" name='message' class='form-control' ></textarea>
+                    </div>
+                    <div class='form-group '>
+                        <div class='checkbox'>
+                            <label >
+                                <input type="checkbox" checked>It's already checked.
+                            </label>
+                        </div>
+                        <div class='checkbox disabled' >
+                            <label >
+                                <input type="checkbox" disabled> It's already disabled.
+                            </label>
+                        </div>
+                     </div>
+                    <div class='form-group '>
+                        <div class='radio'>
+                            <h3>Do you really understand??</h3>
+                            <label >
+                                <input type="radio" name='saddam' checked> Yes
+                            </label>
+                        </div>
+                        <div class='radio'>
+                            <label >
+                                <input type="radio" name='saddam' > No
+                            </label>
+                        </div>
+						<div class='radio'>
+                            <label >
+                                <input type="radio" name='saddam' > don't know
+                            </label>
+                        </div>
+						<div class='radio'>
+                            <label >
+                                <input type="radio" name='saddam checked' >Usually type radio used for multi select but
+								<br> for using "name" attribute it will b act like a check box 
+                            </label>
+                        </div>
+                     </div>
+                        <div class='form-group '>
+                            <div class='input-group'>
+                                <div class='input-group-addon'>$</div>
+                                <input type='text' name='amount' placeholder="Enter Amount <br> class='input-group-addon'
+								it will gather two or more input to-gather" class='form-control' >
+                                <div class='input-group-addon'>.00 only</div>
+                            </div>
+                     </div>
+                        
+                    <div class='form-group '>
+                        <button type="button" class='btn btn-lg btn-danger active' >Activated</button>
+                        <button type="button" class='btn btn-md btn-info ' >Info</button>
+                        <button type="button" class='btn btn-sm btn-warning ' >Warning</button>
+						<button type="button" class='btn btn-xs btn-normal' >Normal</button>
+						<button type="button" class='btn btn-md btn-defult ' >Defult</button>
+						<button type="button" class='btn btn-xs btn-primary ' >Primary</button>
+                     </div>
+                    </fieldset>
+                </form>
+                                    </div>
+
+                                    
+                                    <input type="submit" name="submit" value="Sign Up" class="btn btn-success">
+                                </form>
+                            </td>
+                            <td>
+                                <form class='form-group-sm'>
+								<fieldset>
+						<div class='form-group has-error'>
+						its form-group-sm and disabled<br> 
+							<label>Full Name</label>
+							<input type="text" placeholder="frm-ctrl so i'll b inline block n has-error for red/warning input box"  class='form-control' >
+							
+						</div>
+                         <div class=' has-error'>
+							<label for='text'>Nick Name</label>
+							<input type="text" placeholder="no frm-ctrl so i'll b short">
+						</div>
+                    <div class='form-group warning '>
+                        <label for='message'>Message</label>
+                        <textarea rows='3'  placeholder="it contains rows 3 <br>" name='message' class='form-control' ></textarea>
+                    </div>
+                    <div class='form-group '>
+                        <div class='checkbox'>
+                            <label >
+                                <input type="checkbox" checked>It's already checked.
+                            </label>
+                        </div>
+                        <div class='checkbox disabled' >
+                            <label >
+                                <input type="checkbox" disabled> It's already disabled.
+                            </label>
+                        </div>
+                     </div>
+                    <div class='form-group '>
+                        <div class='radio'>
+                            <h3>Do you really understand??</h3>
+                            <label >
+                                <input type="radio" name='masbha' checked> Yes
+                            </label>
+                        </div>
+                        <div class='radio'>
+                            <label >
+                                <input type="radio" name='masbha' > No
+                            </label>
+                        </div>
+						<div class='radio'>
+                            <label >
+                                <input type="radio" name='masbha' > don't know
+                            </label>
+                        </div>
+						<div class='radio'>
+                            <label >
+                                <input type="radio" name='saddam checked' >Usually type radio used for multi select but
+								<br> for using "name" attribute it will b act like a check box 
+                            </label>
+                        </div>
+                     </div>
+                        <div class='form-group '>
+                            <div class='input-group'>
+                                <div class='input-group-addon'>$</div>
+                                <input type='text' name='amount' placeholder="Enter Amount <br> class='input-group-addon'
+								it will gather two or more input to-gather" class='form-control' >
+                                <div class='input-group-addon'>.00 only</div>
+                            </div>
+                     </div>
+                        
+                    <div class='form-group '>
+                        <button type="button" class='btn btn-lg btn-danger active' >Activated</button>
+                        <button type="button" class='btn btn-md btn-info ' >Info</button>
+                        <button type="button" class='btn btn-sm btn-warning ' >Warning</button>
+						<button type="button" class='btn btn-xs btn-normal' >Normal</button>
+						<button type="button" class='btn btn-md btn-defult ' >Defult</button>
+						<button type="button" class='btn btn-xs btn-primary ' >Primary</button>
+                     </div>
+                    </fieldset>
+                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                <div class="h3">Block Buttons</div>
+                                <button class="btn btn-danger btn-xs btn-block">Home</button>
+                                <button class="btn btn-warning btn-sm btn-block">Home</button>
+                                <button class="btn btn-info btn-md btn-block">Home</button>
+                                <button class="btn btn-primary btn-lg btn-block">Home</button>
+                                <button class="btn btn-success btn-lg btn-block">Home</button>
+                                <button class="btn btn-default btn-lg btn-block">Home</button>
+                                <button class="btn btn-toolbar btn-lg btn-block">Home</button>
+                                <button class="btn btn-default btn-link btn-lg btn-block">Home</button>
+                                <hr>
+                                <div class="h3">Button Size</div>
+                                <button class="btn btn-danger btn-xs">Home XS</button>
+                                <button class="btn btn-warning btn-sm">Home SM</button>
+                                <button class="btn btn-info btn-md">Home MD</button>
+                                <button class="btn btn-primary btn-lg">Home LG</button>
+                                <button class="btn btn-success btn-lg">Home LG</button>
+                                <hr>
+                                <div class="h3">Active Disabled Buttons</div>
+                                <button class="btn btn-info btn-lg active">Home LG</button>
+                                <button class="btn btn-success btn-lg disabled">Home LG</button>
+                                <hr>
+                            </td>
+                            <td>
+                                <div class="table-responsive">
+                                    <div class="h3">Default Table</div>
+                                    <table class="table">
+                                        <tr>
+                                            <th colspan="5" class="text-center">Table Practice</th>
+                                        </tr>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Name</th>
+                                            <th>Product Quantity</th>
+                                            <th>Coupon Code</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mobile</td>
+                                            <td>200</td>
+                                            <td>Jeshan</td>
+                                            <td>Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Laptop</td>
+                                            <td>300</td>
+                                            <td>Mashba</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <hr>
+                                <div class="table-responsive">
+                                    <div class="h3">Table Bordered</div>
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th colspan="5" class="text-center">Table Practice</th>
+                                        </tr>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Name</th>
+                                            <th>Product Quantity</th>
+                                            <th>Coupon Code</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mobile</td>
+                                            <td>200</td>
+                                            <td>Jeshan</td>
+                                            <td>Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Laptop</td>
+                                            <td>300</td>
+                                            <td class="sr-only">Mashba</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                    </table>
+                                    <hr>
+                                </div>
+                                <div class="table-responsive">
+                                    <div class="h3">Table Stripped</div>
+                                    <table class="table table-bordered table-striped">
+                                        <tr>
+                                            <th colspan="5" class="text-center">Table Practice</th>
+                                        </tr>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Name</th>
+                                            <th>Product Quantity</th>
+                                            <th>Coupon Code</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mobile</td>
+                                            <td>200</td>
+                                            <td>Jeshan</td>
+                                            <td>Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Laptop</td>
+                                            <td>300</td>
+                                            <td class="sr-only">Mashba</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                    </table>
+                                    <hr>
+                                </div>
+                                <div class="table-responsive">
+                                    <div class="h3">Table Hover</div>
+                                    <table class="table table-bordered table-striped table-hover">
+                                        <tr>
+                                            <th colspan="5" class="text-center">Table Practice</th>
+                                        </tr>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Name</th>
+                                            <th>Product Quantity</th>
+                                            <th>Coupon Code</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mobile</td>
+                                            <td>200</td>
+                                            <td>Jeshan</td>
+                                            <td>Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Laptop</td>
+                                            <td>300</td>
+                                            <td class="sr-only">Mashba</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                    </table>
+                                    <hr>
+                                </div>
+                                <div class="table-responsive">
+                                    <div class="h3">Table condensed</div>
+                                    <table class="table table-bordered table-striped table-hover table-condensed">
+                                        <tr> 
+                                            <th colspan="5" class="text-center">Table Practice</th>
+                                        </tr>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Name</th>
+                                            <th>Product Quantity</th>
+                                            <th>Coupon Code</th>
+                                            <th>Remark</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mobile</td>
+                                            <td>200</td>
+                                            <td>Jeshan</td>
+                                            <td>Good</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Laptop</td>
+                                            <td>300</td>
+                                            <td class="sr-only">Mashba</td>
+                                            <td>Very Good</td>
+                                        </tr>
+                                    </table>
+                                    <hr>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
